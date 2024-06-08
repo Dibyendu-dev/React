@@ -9,6 +9,7 @@ import ParentInput from './components/ParentInput'
 import ParentListItem from './components/ParentListItem'
 import ParentLogin from './components/ParentLogin'
 import ParentProfile from './components/ParentProfile'
+import ParentTodo from './components/ParentTodo'
 import PreservingParent from './components/PreservingParent'
 import ProfileList from './components/ProfileList'
 
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <>
-   <ParentInput/>
+   <ParentTodo/>
      </>
   )
 }
