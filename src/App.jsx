@@ -1,6 +1,7 @@
 
 import './App.css'
 import Accordion from './components/Accordian'
+import CounterReducer from './components/CounterReducer'
 import Messenger from './components/Messenger'
 import ParentColorPicker from './components/ParentColorPicker'
 import Parent from './components/ParentCounter'
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <>
-   <ParentTodo/>
+   <CounterReducer/>
      </>
   )
 }
