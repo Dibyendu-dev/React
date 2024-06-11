@@ -4,9 +4,6 @@ import TaskList from "./TaskList";
 import { initialTasks } from "../data/tasks";
 import { useState } from "react";
 
-
-
-
 export default function ParentTodo() {
 
     const [tasks,setTasks]= useState(initialTasks);
