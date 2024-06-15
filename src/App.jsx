@@ -19,15 +19,17 @@ import TodoReducerWithImage from "./components/TodoReducerWithImage";
 import { ThemeProvider } from "./context/ThemeContext";
 import ThemedComponent from "./components/ThemedComponent";
 import ThemeToggleButton from "./components/ThemeToggleButton";
+import { CounterProvider } from "./context/CounterContext.jsx";
+import CounterDisplay from "./components/CounterDisplay";
+import CounterButtons from "./components/CounterButtons";
 
 function App() {
   return (
     <>
-      <ThemeProvider>
-        <ThemedComponent />
-
-        <ThemeToggleButton />
-      </ThemeProvider>
+     <CounterProvider>
+        <CounterDisplay/>
+        <CounterButtons/>
+     </CounterProvider>
     </>
   );
 }
