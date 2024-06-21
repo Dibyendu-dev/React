@@ -23,11 +23,12 @@ import { CounterProvider } from "./context/CounterContext.jsx";
 import CounterDisplay from "./components/CounterDisplay";
 import CounterButtons from "./components/CounterButtons";
 import CounterRef from "./components/CounterRef.jsx";
+import Stopwatch from "./components/Stopwatch.jsx";
 
 function App() {
   return (
     <>
-   <CounterRef/>
+   <Stopwatch/>
     </>
   );
 }
