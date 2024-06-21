@@ -22,14 +22,12 @@ import ThemeToggleButton from "./components/ThemeToggleButton";
 import { CounterProvider } from "./context/CounterContext.jsx";
 import CounterDisplay from "./components/CounterDisplay";
 import CounterButtons from "./components/CounterButtons";
+import CounterRef from "./components/CounterRef.jsx";
 
 function App() {
   return (
     <>
-     <CounterProvider>
-        <CounterDisplay/>
-        <CounterButtons/>
-     </CounterProvider>
+   <CounterRef/>
     </>
   );
 }
