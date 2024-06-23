@@ -26,11 +26,12 @@ import CounterRef from "./components/CounterRef.jsx";
 import Stopwatch from "./components/Stopwatch.jsx";
 import AutoFocusInput from "./components/AutoFocusInput.jsx";
 import CounterWithPrevious from "./components/CounterWithPrevious.jsx";
+import MutableValueLogger from "./components/MutableValueLogger.jsx";
 
 function App() {
   return (
     <>
-   <CounterWithPrevious/>
+   <MutableValueLogger/>
     </>
   );
 }
