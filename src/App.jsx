@@ -24,11 +24,12 @@ import CounterDisplay from "./components/CounterDisplay";
 import CounterButtons from "./components/CounterButtons";
 import CounterRef from "./components/CounterRef.jsx";
 import Stopwatch from "./components/Stopwatch.jsx";
+import AutoFocusInput from "./components/AutoFocusInput.jsx";
 
 function App() {
   return (
     <>
-   <Stopwatch/>
+   <AutoFocusInput/>
     </>
   );
 }
