@@ -27,11 +27,12 @@ import Stopwatch from "./components/Stopwatch.jsx";
 import AutoFocusInput from "./components/AutoFocusInput.jsx";
 import CounterWithPrevious from "./components/CounterWithPrevious.jsx";
 import MutableValueLogger from "./components/MutableValueLogger.jsx";
+import MountUnmountLogger from "./components/MountUnmountLogger.jsx";
 
 function App() {
   return (
     <>
-   <MutableValueLogger/>
+   <MountUnmountLogger/>
     </>
   );
 }
