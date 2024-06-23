@@ -25,11 +25,12 @@ import CounterButtons from "./components/CounterButtons";
 import CounterRef from "./components/CounterRef.jsx";
 import Stopwatch from "./components/Stopwatch.jsx";
 import AutoFocusInput from "./components/AutoFocusInput.jsx";
+import CounterWithPrevious from "./components/CounterWithPrevious.jsx";
 
 function App() {
   return (
     <>
-   <AutoFocusInput/>
+   <CounterWithPrevious/>
     </>
   );
 }
