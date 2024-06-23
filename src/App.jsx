@@ -28,11 +28,12 @@ import AutoFocusInput from "./components/AutoFocusInput.jsx";
 import CounterWithPrevious from "./components/CounterWithPrevious.jsx";
 import MutableValueLogger from "./components/MutableValueLogger.jsx";
 import MountUnmountLogger from "./components/MountUnmountLogger.jsx";
+import MeasureDiv from "./components/MeasureDiv.jsx";
 
 function App() {
   return (
     <>
-   <MountUnmountLogger/>
+   <MeasureDiv/>
     </>
   );
 }
