@@ -30,11 +30,14 @@ import MutableValueLogger from "./components/MutableValueLogger.jsx";
 import MountUnmountLogger from "./components/MountUnmountLogger.jsx";
 import MeasureDiv from "./components/MeasureDiv.jsx";
 import CatFriends from "./components/CatFriends.jsx";
+import ShowHide from "./components/ShowHide.jsx";
+
 
 function App() {
+ 
   return (
     <>
-   <CatFriends/>
+   <ShowHide/>
     </>
   );
 }
