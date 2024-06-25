@@ -29,11 +29,12 @@ import CounterWithPrevious from "./components/CounterWithPrevious.jsx";
 import MutableValueLogger from "./components/MutableValueLogger.jsx";
 import MountUnmountLogger from "./components/MountUnmountLogger.jsx";
 import MeasureDiv from "./components/MeasureDiv.jsx";
+import CatFriends from "./components/CatFriends.jsx";
 
 function App() {
   return (
     <>
-   <MeasureDiv/>
+   <CatFriends/>
     </>
   );
 }
