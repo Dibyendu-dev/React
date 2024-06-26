@@ -32,13 +32,14 @@ import MeasureDiv from "./components/MeasureDiv.jsx";
 import CatFriends from "./components/CatFriends.jsx";
 import ShowHide from "./components/ShowHide.jsx";
 import ParentComment from "./components/ParentComment.jsx";
+import Dialog from "./components/Dialog.jsx";
 
 
 function App() {
  
   return (
     <>
-   <ParentComment/>
+   <Dialog/>
     </>
   );
 }
