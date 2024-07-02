@@ -27,7 +27,7 @@ export default function Example3({ items }) {
           <li key={item.id}>
             <input
               type="checkbox"
-            //   checked={item.id === selection?.id}
+               checked={item.id === selection?.id}
               onChange={() => setSelectedId(item.id)}
             />{" "}
             {item.title}
