@@ -35,13 +35,14 @@ import ParentComment from "./components/ParentComment.jsx";
 import Dialog from "./components/Dialog.jsx";
 import FullName from "./components/FullName.jsx";
 import CommentEffect from "./components/CommentEffect.jsx";
+import Example3Parent from "./components/Example3Parent.jsx";
 
 
 function App() {
  
   return (
     <>
-   <CommentEffect/>
+   <Example3Parent />
     </>
   );
 }
