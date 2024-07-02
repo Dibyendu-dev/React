@@ -34,13 +34,14 @@ import ShowHide from "./components/ShowHide.jsx";
 import ParentComment from "./components/ParentComment.jsx";
 import Dialog from "./components/Dialog.jsx";
 import FullName from "./components/FullName.jsx";
+import CommentEffect from "./components/CommentEffect.jsx";
 
 
 function App() {
  
   return (
     <>
-   <FullName/>
+   <CommentEffect/>
     </>
   );
 }
