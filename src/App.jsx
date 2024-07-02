@@ -33,13 +33,14 @@ import CatFriends from "./components/CatFriends.jsx";
 import ShowHide from "./components/ShowHide.jsx";
 import ParentComment from "./components/ParentComment.jsx";
 import Dialog from "./components/Dialog.jsx";
+import FullName from "./components/FullName.jsx";
 
 
 function App() {
  
   return (
     <>
-   <Dialog/>
+   <FullName/>
     </>
   );
 }
