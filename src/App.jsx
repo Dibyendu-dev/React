@@ -36,13 +36,14 @@ import Dialog from "./components/Dialog.jsx";
 import FullName from "./components/FullName.jsx";
 import CommentEffect from "./components/CommentEffect.jsx";
 import Example3Parent from "./components/Example3Parent.jsx";
+import GeoLocationComponent from "./components/GeoLocationComponent.jsx";
 
 
 function App() {
  
   return (
     <>
-   <Example3Parent />
+   <GeoLocationComponent/>
     </>
   );
 }
