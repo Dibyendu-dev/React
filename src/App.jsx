@@ -37,13 +37,14 @@ import FullName from "./components/FullName.jsx";
 import CommentEffect from "./components/CommentEffect.jsx";
 import Example3Parent from "./components/Example3Parent.jsx";
 import GeoLocationComponent from "./components/GeoLocationComponent.jsx";
+import FolderComp from "./components/FolderComp.jsx";
 
 
 function App() {
  
   return (
     <>
-   <GeoLocationComponent/>
+   <FolderComp/>
     </>
   );
 }
