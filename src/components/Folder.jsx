@@ -12,9 +12,9 @@ export default function Folder({explorer}) {
         <div className="folder" onClick={()=>setExpand(!expand)}>
          <span>📁 {explorer.name} </span>
         </div>
-        <div style={{display: expand? 'block' : 'none'}}>
+        <div style={{display: expand? 'block' : 'none', paddingLeft:25}}>
             {explorer.items.map((exp)=>(
-                <span>{exp.name}</span>
+               <Folder explorer={exp} key={exp.id} />
             ))}
         </div>
     </div>
